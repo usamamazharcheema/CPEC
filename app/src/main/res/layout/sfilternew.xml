@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:weightSum="4">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:text="Area"
+            android:id="@+id/nsfplotarea"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="#000000"
+            android:background="#F2F2F2"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:text="type"
+            android:id="@+id/nltextt"
+            android:background="#E6E6E6"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="buying"
+            android:background="#CEEAE9"
+            android:id="@+id/nsfplotprice"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="#000000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="selling"
+            android:background="#E8CFCF"
+            android:id="@+id/nsfplotprice2"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

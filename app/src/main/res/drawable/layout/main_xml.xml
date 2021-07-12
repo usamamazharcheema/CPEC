@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+    <RelativeLayout
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/explore_top_view"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:id="@+id/topheader"
+        android:layout_below="@id/theme"
+        android:background="#D3D3D3"
+
+        >
+        <ImageView
+            android:id="@+id/arrowxmlback"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/arrowback"
+            />
+        <TextView
+            android:textColor="#fff"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY FAVOURITE"
+            android:layout_centerInParent="true"
+            android:id="@+id/maintitlegraph"
+            />
+    </RelativeLayout>
+    <ExpandableListView
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_below="@id/topheader"
+        android:id="@+id/lvExp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:cacheColorHint="#00000000"/>
+    <ProgressBar
+
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:indeterminateDrawable="@drawable/progress" >
+    </ProgressBar>
+
+</RelativeLayout>

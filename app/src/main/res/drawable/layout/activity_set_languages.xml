@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_languages"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.fm.cpec.SetLanguages">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT A LANGUAGE"
+        android:textSize="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_36sdp"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_56sdp"
+        android:background="@drawable/english1"
+        android:layout_marginLeft="@dimen/_37sdp"
+        android:id="@+id/english1"
+        android:onClick="eng"
+        />
+    <Button
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/urdu1"
+        android:layout_marginLeft="@dimen/_37sdp"
+        android:id="@+id/urdu"
+        android:onClick="uru"
+        />
+    <Button
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/chineese1"
+        android:layout_marginLeft="@dimen/_37sdp"
+        android:id="@+id/chineese"
+        android:onClick="chi"
+        />
+
+</LinearLayout>
+</RelativeLayout>

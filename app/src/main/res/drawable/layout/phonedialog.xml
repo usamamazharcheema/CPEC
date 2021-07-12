@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/_200sdp"
+    android:layout_height="@dimen/_130sdp"
+    android:background="@drawable/cmbg"
+
+    >
+
+
+        <Button
+            android:id="@+id/callyes"
+            android:background="@drawable/phoneicon"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALL"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="#32CD32"
+            android:layout_below="@+id/callyes"
+            android:layout_marginLeft="@dimen/_45sdp"/>
+        <Button
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/callyes"
+            android:background="@drawable/messageicon"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:id="@+id/callno"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEXT"
+        android:textSize="@dimen/_18sdp"
+        android:textColor="#4AA4A1"
+        android:layout_marginLeft="@dimen/_104sdp"
+        android:layout_below="@+id/callno"
+        android:layout_alignEnd="@+id/callno"
+        android:id="@+id/textView3" />
+
+</RelativeLayout>

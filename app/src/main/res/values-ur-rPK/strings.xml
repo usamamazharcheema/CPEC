@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPEC</string>
+
+    <string name="email"> ای میل</string>
+    <string name="password"> پاس ورڈ</string>
+    <string name="login"> لاگ ان </string>
+    <string name="signup">سائن اپ </string>
+
+</resources>

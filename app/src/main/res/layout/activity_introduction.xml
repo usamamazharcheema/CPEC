@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_introduction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fm.cpec.Introduction"
+    android:background="#1C2628"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#4AA4A1"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:background="#E6E6E6"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginRight="@dimen/_12sdp"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrol"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="false"
+            android:scrollbarThumbVertical="@drawable/scrollb" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/log"
+                    android:id="@+id/cpeci"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="#2b8271"
+                    android:text="@string/cpec"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cpeci"
+                    android:id="@+id/cpeccon"
+
+
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_marginRight="@dimen/_11sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#000000"
+                    android:text="@string/cpeccontent"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/logob"
+                    android:id="@+id/log"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cpeccon"
+                    android:id="@+id/gawadar"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="#2b8271"
+                    android:text="@string/gawadr"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gawadar"
+                    android:id="@+id/gawadarcon"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_marginRight="@dimen/_11sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#000000"
+                    android:text="@string/cpeccontent"/>
+
+                <TextView
+                    android:id="@+id/vision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/gawadar"
+                    android:layout_below="@+id/gawadarcon"
+                    android:text="@string/vision"
+                    android:textColor="#2b8271"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/vision"
+                    android:id="@+id/visiondes"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_marginRight="@dimen/_11sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#000000"
+                    android:text="@string/visiondesc"/>
+                <TextView
+                    android:id="@+id/mission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/gawadar"
+                    android:layout_below="@+id/visiondes"
+                    android:text="@string/mission"
+                    android:textColor="#2b8271"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mission"
+                    android:id="@+id/missiondes"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_marginRight="@dimen/_11sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#000000"
+                    android:text="@string/missiondesc"/>
+                <TextView
+                    android:id="@+id/caliber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/gawadar"
+                    android:layout_below="@+id/missiondes"
+                    android:text="@string/caliber"
+                    android:textColor="#2b8271"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/caliber"
+                    android:id="@+id/caliberdes"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_marginRight="@dimen/_11sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#000000"
+                    android:text="@string/caliberdesc"/>
+
+                <TextView
+                    android:id="@+id/services"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/gawadar"
+                    android:layout_below="@+id/caliberdes"
+                    android:text="@string/services"
+                    android:textColor="#2b8271"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/services"
+                    android:id="@+id/servicesdes"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_marginRight="@dimen/_11sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#000000"
+                    android:text="@string/servicesdes"/>
+
+                <Button
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_55sdp"
+                    android:layout_below="@+id/servicesdes"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:background="@drawable/loginsignup1"
+                    android:id="@+id/next"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:text="@string/next"
+                    android:textSize="@dimen/_21sdp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <!--android:fadeScrollbars="false"-->
+                <!--android:scrollbarStyle="outsideOverlay"-->
+
+                <!--android:scrollbars="vertical"-->
+                <!--android:scrollbarSize="@dimen/_15sdp"-->
+
+
+                <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="@dimen/_7sdp"-->
+                <!--android:background="@drawable/logob"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--&gt;-->
+                <!--</ImageView>-->
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/app_name"-->
+                <!--android:textColor="#1C2628"/>-->
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

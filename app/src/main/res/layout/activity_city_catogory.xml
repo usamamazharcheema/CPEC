@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_city_catogory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.fm.cpec.CityCatogory">
+
+    <RelativeLayout
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:src="@drawable/explore_top_view"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:id="@+id/topheader"
+        android:background="@drawable/savabg"
+
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/cityback"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/arrowback"
+            />
+        <TextView
+            android:id="@+id/cityplot"
+            android:textColor="#fff"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELL YOUR PROPERTY"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="@dimen/_9sdp"
+        android:id="@+id/searchcityrecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_53sdp"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/topheader"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cu"
+        android:id="@+id/contactus"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

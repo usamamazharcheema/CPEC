@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gawadarcat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fm.cpec.Gawadarcat">
+    <RelativeLayout
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:src="@drawable/explore_top_view"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:id="@+id/topheader"
+        android:background="@drawable/savabg"
+
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/searchgwdback"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/arrowback"
+            />
+        <TextView
+            android:id="@+id/titleplotreserachfiltermain"
+            android:textColor="#fff"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gwadar"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_59sdp"
+        android:layout_below="@+id/topheader"
+        android:layout_centerInParent="true">
+    <LinearLayout
+        android:layout_marginTop="@dimen/_15sdp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_14sdp"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:id="@+id/gindustrialsearchfragmenr"
+            android:src="@drawable/industrialmainicon"
+            android:layout_marginRight="@dimen/_15sdp"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:id="@+id/gresidentialsearchfragment"
+            android:src="@drawable/residentialmainicon"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:layout_marginRight="@dimen/_14sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:id="@+id/gcommertialsearchfragment"
+            android:src="@drawable/commertialmainicon"
+            android:layout_marginRight="@dimen/_15sdp"
+            />
+
+        <ImageView
+            android:id="@+id/gopenlandsearchfragment"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@drawable/openlandmainicon"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/contactu"
+        android:background="@drawable/cu"/>
+</RelativeLayout>

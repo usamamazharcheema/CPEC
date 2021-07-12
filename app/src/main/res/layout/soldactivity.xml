@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="@dimen/_160sdp"
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    >
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_150sdp"
+
+        android:layout_marginTop="@dimen/_13sdp"
+
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:background="@drawable/backsoldnew"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="10"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/title"
+                android:gravity="center"
+                android:text="PLOT AVAILABLE"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                />
+            <View
+                android:background="@drawable/linenew"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                ></View>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+
+            >
+
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/discription"
+                android:gravity="center_horizontal"
+                android:text="Pakistan is an ideal state"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:background="@drawable/areanew"
+                    android:id="@+id/area"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_weight="9"
+                    android:text="Acrmmm"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:weightSum="10"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:background="@drawable/pricesoldnew"
+                    android:id="@+id/price"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_weight="9"
+                    android:textSize="@dimen/_8sdp"
+                    android:text="100000000000000"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="10"
+            android:background="@drawable/backgrunbotomsold"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#fff"
+                android:text="Sold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

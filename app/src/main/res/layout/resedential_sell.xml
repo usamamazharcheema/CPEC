@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        >
+
+        <Spinner
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_15sdp"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/spinnerback"
+            android:id="@+id/resedentialarea"
+            />
+        <Spinner
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:paddingLeft="@dimen/_15sdp"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:hint="Location"
+            android:id="@+id/resedentiallocation"
+            />
+        <EditText
+
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Sqr_Yard"
+            android:id="@+id/titletext"
+            android:paddingLeft="@dimen/_15sdp"
+            />
+        <EditText
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_15sdp"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signname"
+            android:id="@+id/resedentialname"
+            />
+        <EditText
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_15sdp"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Phone"
+            android:id="@+id/resedentialphone"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/_180sdp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/additionalinfo"
+            />
+        <EditText
+
+            android:layout_marginTop="@dimen/_15sdp"
+            android:id="@+id/resedentialadditional"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:paddingLeft="@dimen/_15sdp"
+            android:layout_gravity="center_horizontal"
+            android:lines="5"
+            android:background="@drawable/additionback"
+            />
+        <Button
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="@string/sub"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/submitbuton"
+            android:id="@+id/resedentialsubmit"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

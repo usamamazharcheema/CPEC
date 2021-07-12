@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_160sdp"
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    >
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_150sdp"
+
+        android:layout_marginTop="@dimen/_12sdp"
+
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:background="@drawable/backnew"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="10"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/sstitle"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="PLOT AVAILABLE"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                />
+            <View
+                android:background="@drawable/linenew"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                ></View>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+
+            >
+
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/sdiscription"
+                android:gravity="center_horizontal"
+                android:text="Pakistan is an ideal state"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="1000000"
+                    android:background="@drawable/areanew"
+                    android:id="@+id/ssarea"
+
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_weight="9"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:weightSum="10"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="100000"
+                    android:background="@drawable/pricenew"
+                    android:id="@+id/ssprice"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_35sdp"
+android:textSize="@dimen/_8sdp"
+                    android:layout_weight="9"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="10"
+
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:textSize="@dimen/_9sdp"
+                    android:textColor="#fff"
+                    android:text="View Details"
+                    android:id="@+id/ssviewdetails"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/detailnew"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:id="@+id/ssfav"
+                    android:layout_width="@dimen/_25sdp"
+                    android:background="@drawable/favoritebtn"
+                    android:layout_height="@dimen/_25sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:gravity="center"
+                    android:textSize="@dimen/_9sdp"
+                    android:textColor="#fff"
+                    android:text="Contact"
+                    android:id="@+id/sfcontact"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/contactnew"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="      Contact"
+                    android:textColor="#ffffff"
+                   android:layout_centerInParent="true"
+                    android:textSize="@dimen/_12sdp"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

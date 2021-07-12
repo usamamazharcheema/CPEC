@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2">
+
+    <RelativeLayout
+        android:layout_below="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:id="@+id/topheader"
+        android:background="@drawable/savabg"
+
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/osearcopenhback"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/arrowback"
+            />
+        <TextView
+            android:id="@+id/titleplotopserachfiltermain"
+            android:textColor="#fff"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OIL CITY"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topheader">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:text="Mozah Chokeen"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:textColor="#298f91"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+                android:textSize="@dimen/_15sdp"
+                android:background="@drawable/allbg"
+                android:id="@+id/mchoken"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:text="Mozah Shumal Bandhan"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+
+                android:textColor="#298f91"
+                android:textSize="@dimen/_16sdp"
+                android:background="@drawable/allbg"
+                android:id="@+id/mshumal"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:text="Mozah Shatangi"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+
+                android:textColor="#298f91"
+                android:textSize="@dimen/_16sdp"
+                android:background="@drawable/allbg"
+                android:id="@+id/mshatangi"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:text="Mozah Chakli"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+
+                android:textColor="#298f91"
+                android:textSize="@dimen/_16sdp"
+                android:background="@drawable/allbg"
+                android:id="@+id/mchakli"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:text="Mozah Churbanber"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+
+                android:textColor="#298f91"
+                android:textSize="@dimen/_16sdp"
+                android:background="@drawable/allbg"
+                android:id="@+id/mchurbanber"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:text="Mozah Pasni"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+
+                android:textColor="#298f91"
+                android:textSize="@dimen/_16sdp"
+                android:background="@drawable/allbg"
+                android:id="@+id/mpasni"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/con12"
+
+                android:background="@drawable/cu"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:src="@drawable/explore_top_view"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2">
+    <RelativeLayout
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/explore_top_view"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:id="@+id/topheader"
+        android:background="#A9A9A9"
+
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/searchback"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/arrowback"
+            />
+        <TextView
+            android:id="@+id/gtitleplotserachfiltermain"
+            android:textColor="#fff"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sproperty"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:layout_below="@+id/topheader"
+        android:id="@+id/tab"
+        android:background="#f2f2f2"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="fixed"
+        style="@style/MyTabLayout"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+android:visibility="gone"
+        android:indeterminateDrawable="@drawable/progress" >
+    </ProgressBar>
+    <android.support.v4.view.ViewPager
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_below="@+id/topheader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/secondlayoutsearchfilter"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:layout_below="@+id/topheader"-->
+        <!--android:layout_alignParentStart="true">-->
+  <!--<TextView-->
+      <!--android:text="@string/sortby"-->
+      <!--android:gravity="center"-->
+      <!--android:layout_width="@dimen/_60sdp"-->
+      <!--android:layout_height="@dimen/_40sdp"-->
+      <!--android:id="@+id/sortedtext"-->
+      <!--/>-->
+<!--<Button-->
+
+<!--android:background="@drawable/sortarrow"-->
+   <!--android:layout_gravity="center"-->
+    <!--android:id="@+id/sortarrow"-->
+    <!--android:layout_width="@dimen/_30sdp"-->
+    <!--android:layout_height="@dimen/_30sdp" />-->
+        <!--<Button-->
+
+            <!--android:text="@string/price"-->
+            <!--android:id="@+id/pricefilter"-->
+            <!--android:background="@drawable/unselectedsort"-->
+            <!--android:layout_width="@dimen/_60sdp"-->
+            <!--android:layout_height="@dimen/_30sdp" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/areafilter"-->
+            <!--android:layout_marginLeft="@dimen/_15sdp"-->
+            <!--android:background="@drawable/unselectedsort"-->
+            <!--android:text="@string/area"-->
+            <!--android:layout_width="@dimen/_60sdp"-->
+            <!--android:layout_height="@dimen/_30sdp" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/regionfilter"-->
+            <!--android:layout_marginLeft="@dimen/_15sdp"-->
+            <!--android:text="PHASE"-->
+            <!--android:background="@drawable/unselectedsort"-->
+            <!--android:layout_width="@dimen/_60sdp"-->
+            <!--android:layout_height="@dimen/_30sdp" />-->
+    <!--</LinearLayout>-->
+</RelativeLayout>

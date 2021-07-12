@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CPEC</string>
+
+
+    <string name="email"> ای میل</string>
+    <string name="password"> پاس ورڈ</string>
+    <string name="login"> لاگ ان </string>
+    <string name="signup">سائن اپ </string>
+    <string name="loginn"> لاگ ان</string>
+    <string name="signupp">سائن اپ </string>
+    <string name="availaible">دستیاب</string>
+    <string name="sold">فروخت</string>
+    <string name="signname">نام</string>
+    <string name="location">مقام</string>
+    <string name="phone">فون نمبر</string>
+    <string name="areusure">کیا آپ واقعی باہر جانا چاہتے ہیں؟</string>
+    <string name="contactv">رابطہ کریں</string>
+    <string name="submit">جمع</string>
+    <string name="pricetrends">قیمت رجحانات</string>
+    <string name="loading">لوڈ کر رہا ہے ...</string>
+    <string name="introduction">تعارف</string>
+    <string name="enter">داخل</string>
+    <string name="plotavalaible">نیا ٹاؤن میں دستیاب پلاٹ</string>
+    <string name="stk">اسٹاک</string>
+
+    <string name="forgot">پاسورڈ بھول گے؟</string>
+    <string name="connect">یا کنکشن VIA</string>
+    <string name="gwadar">گوادر</string>
+    <string name="selectcat">منتخب کریں قسم</string>
+
+
+    <string name="cpec">ایک انقلاب</string>
+    <string name="cpeccontent">ہم نے ریل اسٹیٹ انڈسٹری میں ایک انقلاب بیان کیا ہے
+        پاکستان کا سب کچھ برداشت کرنا چاہتا ہے. لیکن سچ
+        سب کچھ نہیں ہے. جب سی سی ای سی انٹرنیشنل میں قائم کیا گیا تھا
+        21 صدی، انہوں نے ہمیں رینجرز بلایا. ہم ایک تھے
+        ملک کے ساتھ ساتھ غیر ملکی مدد کرنے کے لئے بے نقاب مشن
+        سرمایہ کاروں کو وہ جو کچھ حاصل کرتے ہیں وہ زیادہ رکھنے کے لئے. ہم نہیں ہیں
+        دوسروں کی طرح اور نہ ہی آپ ہیں.</string>
+
+    <string name="gawadr">ایک کلاسیکی ارتقاء</string>
+
+    <string name="gawadarcontent"> جیسا کہ ہم ایک نئے زمانے میں قدم اٹھاتے ہیں ہم ہماری جڑوں کو ہمت کرتے ہیں
+        اور خوف سے مستقبل میں چلتے ہیں. نیا برانڈ متعارف کرا رہا ہے
+        خاندان، آج کے ایجنٹوں، خریداروں اور بیچنے والے کے لئے انجنیئر.</string>
+
+    <string name="vision">ہمارا خیال</string>
+    <string name="visiondesc">دنیا بھر کے معیار کے ساتھ پاکستان میں اپنے گاہکوں کو سہولت فراہم کرنے کے لئے.</string>
+    <string name="mission">ہمارا مقصد</string>
+    <string name="missiondesc">برانڈ نام بیداری میں نمبر نمبر 1.
+        گلوبل گھر کی فروخت میں نمبر 1.
+        2023 میں دنیا بھر کے دفتر کھولنے کے لئے.</string>
+
+    <string name="caliber">ہماری اعلی صلاحیت</string>
+    <string name="caliberdesc">ہم نے ہمیشہ یہ موقف لیا ہے کہ آئرن لوہے کو تیز کرتا ہے.
+        لہذا جب یہ ایجنٹ کی کیفیت کے ساتھ آتا ہے. ہم سب سے بہتر اپنی طرف متوجہ کرتے ہیں.
+        اب آپ جانتے ہیں کہ کیوں زیادہ خریدار اور بیچنے والے کی سفارش کریں گے
+        کسی دوسرے رئیل اسٹیٹ بروکرج سے سی سی ای سی انٹرنیشنل.</string>
+    <string name="services">ہماری خدمات</string>
+    <string name="servicesdes">24/7 گھنٹے ریل اسٹیٹ کی خدمات.
+دنیا بھر میں خریداروں اور بیچنے والوں کے لئے شفاف خریدنے اور فروخت کی شرح اور منصفانہ معاملات.</string>
+
+    <string name="next">اگلے</string>
+    <string name="Sqr_Yard">Sqr یارڈ </string>
+    <string name="near"> قریب مقام</string>
+    <string name="Phone">فون</string>
+    <string name="additionalinfo">اضافی معلومات</string>
+    <string name="sub">جمع</string>
+    <string name="fav">میرا پسندیدہ</string>
+    <string name="myprpoerty">میرا اسٹاک</string>
+    <string name="searchfilter"> تلاش کریں</string>
+    <string name="selecttype">منتخب کریں</string>
+    <string name="area">رقبہ</string>
+    <string name="price">
+بهاؤ</string>
+    <string name="forsale">فروخت کے لئے</string>
+    <string name="slocation">منتخب کریں</string>
+    <string name="stocksa">اسٹاک دستیاب</string>
+    <string name="trending">رجحان</string>
+    <string name="EXPLORE">تلاش کریں</string>
+    <string name="Favourite">پسندیدہ</string>
+    <string name="newsearch">نئی تلاش</string>
+    <string name="addprpoerty">اسٹاک شامل کریں</string>
+    <string name="myyprpoerty">میرا اسٹاک</string>
+    <string name="contactus">ہم سے رابطہ کریں</string>
+    <string name="aboutus">ہمارے بارے میں</string>
+    <string name="signout">باہر جائیں</string>
+    <string name="poweredby">Powerd By</string>
+    <string name="call">کیا آپ مالک کو کال کرنا چاہتے ہیں؟</string>
+    <string name="yes"> ہاں</string>
+    <string name="no">نہیں</string>
+    <string name="title">عنوان</string>
+    <string name="view">دیکھیں</string>
+    <string name="contact">رابطہ کریں</string>
+    <string name="sortby">ترتیب دیں</string>
+    <string name="region">علاقہ</string>
+    <string name="sproperty">آپ کے ملکیت کو فروخت</string>
+
+
+
+</resources>

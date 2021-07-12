@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+       android:id="@+id/searchlayoutone"
+        android:background="#5e9fa6"
+        android:gravity="center">
+
+        <TextView
+            android:text="@string/EXPLORE"
+            android:textColor="#fff"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/searchlayoutsecond"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical"
+        android:layout_below="@+id/searchlayoutone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT LOCATION"
+            android:textSize="@dimen/_14sdp"/>
+
+        </LinearLayout>
+       <!--<ImageView-->
+           <!--android:layout_marginTop="@dimen/_8sdp"-->
+           <!--android:id="@+id/searchfilter"-->
+           <!--android:src="@drawable/mainsearchbar"-->
+           <!--android:layout_width="@dimen/_250sdp"-->
+           <!--android:layout_height="@dimen/_35sdp" />-->
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchlayoutsecond"
+        android:layout_centerHorizontal="true">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="@dimen/_100sdp"-->
+                <!--android:layout_height="@dimen/_80sdp"-->
+                <!--android:id="@+id/industrialsearchfragmenr"-->
+                <!--android:src="@drawable/industrialmainicon"-->
+                <!--android:layout_marginRight="@dimen/_15sdp"-->
+              <!--/>-->
+
+            <ImageView
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_150sdp"
+android:id="@+id/gwdsearchfragment"
+                android:src="@drawable/gawadarmain"
+           />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+           <!--android:layout_marginTop="@dimen/_17sdp"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="@dimen/_100sdp"-->
+                <!--android:layout_height="@dimen/_80sdp"-->
+<!--android:id="@+id/commertialsearchfragment"-->
+                <!--android:src="@drawable/commertialmainicon"-->
+                <!--android:layout_marginRight="@dimen/_15sdp"-->
+            <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/openlandsearchfragment"-->
+                <!--android:layout_width="@dimen/_100sdp"-->
+                <!--android:layout_height="@dimen/_80sdp"-->
+                <!--android:src="@drawable/openlandmainicon"-->
+                <!--android:layout_marginLeft="@dimen/_15sdp"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gawadarr"
+                android:src="@drawable/gwadarr"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imaline"
+                android:src="@drawable/linee"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/isbsearchfragment"
+                android:src="@drawable/islamabad"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lhrsearchfragment"
+                android:src="@drawable/lahore"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hydsearchfragment"
+                android:src="@drawable/hydrabad"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pessearchfragment"
+                android:src="@drawable/peshawar"
+
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+        android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kchsearchfragment"
+            android:src="@drawable/karachi"
+            android:scaleType="fitCenter"
+
+
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bhlsearchfragment"
+                android:src="@drawable/bahawalpur"
+
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/faisearchfragment"
+                android:src="@drawable/faislabad"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dgsearchfragment"
+                android:src="@drawable/dgkhan"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

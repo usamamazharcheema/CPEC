@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPEC</string>
+
+
+    <string name="email"> 电子邮件</string>
+    <string name="password">密码</string>
+    <string name="login">登录 </string>
+    <string name="signup">注册</string>
+    <string name="areusure">您确定要退出吗？</string>
+    <string name="loginn">登录</string>
+    <string name="signupp">注册 </string>
+    <string name="sold">
+出售</string>
+    <string name="cpec">革命</string>
+    <string name="signname">名稱</string>
+    <string name="location">位置</string>
+    <string name="availaible">
+可得到</string>
+    <string name="phone">電話號碼</string>
+    <string name="stk">
+股票</string>
+    <string name="submit">提交</string>
+    <string name="gwadar">瓜达尔</string>
+    <string name="plotavalaible">剧情在新城市有售</string>
+    <string name="pricetrends">
+价格趋势</string>
+
+    <string name="contactv">
+联系Via</string>
+    <string name="introduction">介紹</string>
+    <string name="enter">輸入</string>
+   <string name="forgot">忘記密碼？</string>
+    <string name="loading">載入中...</string>
+<string name="connect">或連接威盛</string>
+    <string name="selectcat">
+选择类别</string>
+
+    <string name="cpeccontent">
+我们已经提到了房地产业的一场革命
+        巴基斯坦，所以每个人都想脱颖而出。但是事实
+        不是全部都做。 CPEC国际成立时
+        21世纪，他们称我们为叛徒。我们在一个
+        无私的使命，帮助国家和国外
+        投资者保持更多的收入。我们不是
+        像其他人一样，也不是。</string>
+    <string name="gawadr">经典演变</string>
+    <string name="gawadarcontent">
+当我们步入一个新的时代时，我们要向我们的根源致敬
+        并无畏地走向未来。介绍新品牌
+        家庭，为今天的代理商，买家和卖家设计。</string>
+    <string name="vision">我们的愿景</string>
+    <string name="visiondesc">
+为了在巴基斯坦为全球客户提供优质的服务。</string>
+    <string name="mission">
+我们的任务</string>
+    <string name="missiondesc">
+品牌知名度排名第一。
+        全球房屋销售第一。
+        2023年在全球开设办事处</string>
+
+    <string name="caliber">我们的口径很高</string>
+    <string name="caliberdesc">
+我们一直采取铁烙铁的立场。
+        所以说到代理质量。我们吸引最好的。
+        现在你知道为什么更多的买家和卖家会推荐
+        CPEC国际比任何其他房地产经纪。</string>
+
+    <string name="services">
+我们的服务</string>
+    <string name="servicesdes">
+24/7小时房地产服务。
+透明的买卖价格和全球买家和卖家的公平交易。</string>
+
+
+    <string name="next">下一個</string>
+    <string name="Sqr_Yard">Sqr圍場 </string>
+    <string name="near">
+靠近位置</string>
+    <string name="Phone">电话</string>
+    <string name="additionalinfo">附加信息</string>
+    <string name="sub">提交</string>
+    <string name="fav">我的最爱</string>
+    <string name="myprpoerty">我的财产</string>
+    <string name="searchfilter">搜索过滤器</string>
+    <string name="selecttype">选择类型</string>
+    <string name="area">区域</string>
+    <string name="price">价钱</string>
+    <string name="forsale">出售</string>
+    <string name="trending">
+趋势</string>
+    <string name="EXPLORE">探索</string>
+    <string name="slocation">选择位置</string>
+    <string name="Favourite">最爱</string>
+    <string name="stocksa">
+股票可用</string>
+    <string name="newsearch">新搜索</string>
+    <string name="addprpoerty">
+添加股票</string>
+    <string name="myyprpoerty">
+我的股票</string>
+    <string name="contactus">
+联系我们</string>
+    <string name="aboutus">
+关于我们</string>
+    <string name="signout">登出</string>
+    <string name="poweredby">
+供电</string>
+    <string name="call">你想打电话给店主吗？</string>
+    <string name="yes">是</string>
+    <string name="no">没有</string>
+    <string name="title">标题</string>
+    <string name="view">视图</string>
+    <string name="contact">联系</string>
+    <string name="sortby">排序方式</string>
+    <string name="region">地区</string>
+    <string name="sproperty">
+出售您的物业</string>
+</resources>

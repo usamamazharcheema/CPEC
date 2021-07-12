@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gawadarcat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fm.cpec.CmSangPhase">
+    <RelativeLayout
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:src="@drawable/explore_top_view"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:id="@+id/topheader"
+        android:background="@drawable/savabg"
+
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/searcmsphback"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/arrowback"
+            />
+        <TextView
+            android:id="@+id/titleplotreserachfiltermain"
+            android:textColor="#fff"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SANGHAR PHASE"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_below="@+id/topheader"
+        android:layout_centerInParent="true">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_14sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:text="Phase - 1"
+                    android:textColor="#298f91"
+                    android:textSize="@dimen/_16sdp"
+                    android:id="@+id/csphase1"
+                    android:background="@drawable/allbg"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_14sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:text="Phase - 2"
+                    android:textColor="#298f91"
+                    android:textSize="@dimen/_16sdp"
+                    android:id="@+id/csphase2"
+                    android:background="@drawable/allbg"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_14sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:text="Phase - 3"
+                    android:textColor="#298f91"
+                    android:textSize="@dimen/_16sdp"
+                    android:id="@+id/csphase3"
+                    android:background="@drawable/allbg"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_14sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:text="High Rise"
+                    android:textColor="#298f91"
+                    android:textSize="@dimen/_16sdp"
+                    android:id="@+id/csphase4"
+                    android:background="@drawable/allbg"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/csphase5"
+        android:background="@drawable/cu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        />
+</RelativeLayout>
